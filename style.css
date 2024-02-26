@@ -1,0 +1,69 @@
+body{
+ 
+}
+.navdown{
+    color: white;
+    
+    height: 8vh;
+    display: flex;
+    gap: 10px;
+    padding-top: 10px;
+    padding-left: 10px;
+    
+}
+.image1{
+    display: flex;
+    background-color: black;
+    height: 100px;
+    width: 100px;
+}
+
+.productHighlight >div{
+    height: 400px;
+}
+.hero-section{
+    background-image: url('./image/image.jpg');
+    /* height: 30vh; */
+    background-position: center;
+    width: 100%;
+    background-size: cover;
+}
+.container{
+    color:black;
+    padding-top: 300px;
+
+}
+.productHighlight{
+    /* padding-top: 300px; */
+}
+
+.footer-content h6{
+font-weight: 500;
+font-size: 14px;
+}
+.footer-content p{
+    font-weight: 300;
+    font-size: 13px;
+}
+.footer-content>div{
+    margin-top: 20px;
+    display: flex;
+
+    gap: 30px;
+    justify-content: center;
+    /* border: 2px solid red; */
+}
+.footer-content>div>div{
+    width: 120px;
+}
+.first-page{
+    position: fixed;
+    top: 0;
+    z-index: 99;
+    transform: translateX(-100%);
+    transition: .3s ease;
+    left: 0;
+}
+.first-page.active{
+    transform: translateX(0);
+}
